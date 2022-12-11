@@ -4,6 +4,28 @@
   padding: 0;
 }
 
+header {
+  height: 80px;
+  max-width: 1600px;
+  margin: 0 auto 100px auto;
+  padding: 0 40px ;
+  background: rgba(70, 130, 180, 1);
+}
+
+.logo-contaner{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-contaner img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
 .contaner {
   width: 200px;
   height: 200px;
@@ -16,6 +38,7 @@
   justify-items: center;
   align-items: center;
 }
+
 .cell {
   width: 50px;
   height: 50px;
